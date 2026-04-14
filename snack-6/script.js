@@ -14,6 +14,10 @@ const zucchine = [
 // A partire dall'array fornito, crea due array. Uno con le zucchine più lunghe di almeno 15cm.
 //  L'altro con le restanti.
 
+
+//(zucchina) =>, stai dicendo a JavaScript: "Per ogni elemento che incontri in questo array, chiamalo momentaneamente zucchina"
+
+
 // Utilizzo il metodo filter per creare due nuovi array, uno con le zucchine lunghe almeno 15cm e l'altro con le zucchine corte.
 const zucchine_lunghe = zucchine.filter((zucchina) => zucchina.length >= 15);
 const zucchine_corte = zucchine.filter((zucchina) => zucchina.length < 15);
