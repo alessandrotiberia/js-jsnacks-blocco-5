@@ -21,3 +21,7 @@ const students = [
 
 // Recupera la classe dello studente 'Marco Lanci'
 // Risultato: '3C'
+
+// trovo l'oggetto studente con nome 'Marco Lanci' e recupero la sua classe
+const marco_classe = students.find(studente => studente.name === "Marco Lanci").class;
+console.log(marco_classe);
